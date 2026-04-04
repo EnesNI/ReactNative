@@ -1,19 +1,24 @@
 import React from "react";
 import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
-const ButtonScreen = () => {
+const ButtonScreen = (props) => {
     let counter = 0;
     return (
         <View>
-            <Text style={StyleSheet.textStyle}>Button Screen</Text>
+            <Text style={styles.textStyle}>Button Screen</Text>
             <Button title="Click me"
                 color="purple"
                 onPress={() => console.log('Button Clicked:', counter++)}
             />
-            <TouchableOpacity style={style.touchableBtn}
+            <TouchableOpacity style={styles.touchableBtn}
             onPress={() => console.log("TouchableOpacity Clicked: ", counter++)} >
                 <Text style={styles.btnText}>Click touchable Element</Text>
             </TouchableOpacity>
+            <Button 
+                title="Go Back"
+                onPress={() => props.navigation.goBack()}
+            />
+
         </View>
     )
 }
