@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import ButtonScreen from './screens/buttonscreen';
 import MenuScreen from './screens/MenuScreen';
 import StudentsScreen from './screens/StudentsScreen';
+import ProfileScreen from './screens/profilescreen';
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="Button" component={ButtonScreen} />
         <Stack.Screen name="Menu" component={MenuScreen} />
         <Stack.Screen name="Students" component={StudentsScreen} />
+        <Stack.Screen name="Profile" component={ProfileScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
