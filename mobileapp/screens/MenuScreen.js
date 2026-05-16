@@ -2,27 +2,26 @@ import React from "react";
 import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 const MenuScreen = (props) => {
-    console.log(props);
     return (
         <View>
-            <Text style={styles.text}>Welcome To Menu Screen</Text>
+            <Text style={styles.text}>Welcom To Menu Screen</Text>
             <Button 
-            title="Go to Button Screen"
-            onPress={()=> props.navigation.navigate('Button')}
+                title="Go to List Screen"
+                onPress={()=> props.navigation.navigate('List')}
             />
-            <TouchableOpacity 
-            style = {styles.btn}
-            onPress={() => props.navigation.navigate('Students')}>
-                <Text style={styles.btnText}>Go to students Screen</Text>
+            <TouchableOpacity
+                style = {styles.btn}
+                onPress={() => props.navigation.navigate('Students')}>
+                <Text style={styles.btnText}>Go to Students Screen</Text>
             </TouchableOpacity>
-            <TouchableOpacity 
-            style = {styles.btn}
-            onPress={() => props.navigation.navigate('Profile')}>
+            <TouchableOpacity
+                style = {styles.btn}
+                onPress={() => props.navigation.navigate('Profile')}>
                 <Text style={styles.btnText}>Go to Profile Screen</Text>
             </TouchableOpacity>
-           
         </View>
     );
+
 };
 
 const styles = StyleSheet.create({
@@ -37,11 +36,12 @@ const styles = StyleSheet.create({
         paddingVertical: 7
     },
     btnText: {
-        color: 'White',
+        color: 'white',
         fontSize: 15,
         textTransform: 'uppercase',
         textAlign: 'center'
     }
 });
+
 
 export default MenuScreen;

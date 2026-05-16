@@ -1,10 +1,11 @@
-# ReactNative
+# ReactNative11D
 
 npx create-expo-app mobileApp --template
 npx expo install react-native-web react-dom @expo/metro-runtime
 npm install @expo/ngrok
 npm install @react-navigation/native @react-navigation/stack
 npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler
 npx expo start --tunnel
 npm install expo@^54.0.0
 npx expo install --fix
