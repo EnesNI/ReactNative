@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 const ButtonScreen = () => {
     let counter = 0;
     return (
-        <View>
+        <View style={styles.container}>
             <Text style={StyleSheet.textStyle}>Button Screen</Text>
             <Button title="Click me"
                 color="purple"
@@ -19,6 +19,10 @@ const ButtonScreen = () => {
 }
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+    },
     textStyle: {
         textAlign: 'center',
         marginTop: 10,

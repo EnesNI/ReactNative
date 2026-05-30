@@ -4,7 +4,7 @@ import StudentDetails from "../components/StudentDetails";
 
 const StudentsScreen = () => {
     return (
-        <View>
+        <View style={styles.container}>
             <Text style={styles.text}>Students Screen</Text>
             <StudentDetails name="Elvedin" image={require('../assets/avatar1.png')} description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"/>
             <StudentDetails name="Drin" image={require('../assets/avatar2.png')} description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"/>
@@ -16,6 +16,10 @@ const StudentsScreen = () => {
 };
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+    },
     text: {
         textAlign: 'center',
         fontSize: 20,
