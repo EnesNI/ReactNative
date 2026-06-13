@@ -5,21 +5,12 @@ const ExerciseScreen = () => {
     let message = 'Hi There';
     message = "Hi there from digital school"
     return(
-        <View style={styles.container}>
+        <View>
             <Text>{message}</Text>
         </View>
 
         
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-});
 
 export default ExerciseScreen;

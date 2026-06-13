@@ -1,12 +1,10 @@
 import React from 'react';
 import {FlatList, StyleSheet} from 'react-native';
-import ProfileInfo from '../components/ProfileInfo';
-import Projects from '../components/Projects';
 
 
 const ProfileScreen = ({navigation}) => {
     const sections = [
-        {id: 'profile'},
+        {id: 'prfile'},
         {id: 'projects'},
     ];
     return (

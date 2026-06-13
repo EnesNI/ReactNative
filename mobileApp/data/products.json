@@ -1,92 +1,82 @@
 [
   {
-    "id": 1,
-    "name": "Wireless Bluetooth Headphones",
-    "country": "Germany",
-    "price": 79.99,
-    "stock": 120,
-    "image": "/assets/headphones.png",
-    "description": "High-quality wireless headphones with noise cancellation."
+    "id": "1",
+    "name": "Nike Hyperchase",
+    "category": "Men's Basketball Shoes",
+    "price": 125,
+    "stock": 15,
+    "image": "https://picsum.photos/500/500?random=1",
+    "link": "https://www.nike.com/t/hyperchase-basketball-shoe/FD8352",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 2,
-    "name": "Smart Watch Pro",
-    "country": "USA",
-    "price": 149.99,
-    "stock": 85,
-    "image": "/assets/smartwatch.webp",
-    "description": "Fitness tracking smartwatch with heart rate monitoring."
+    "id": "2",
+    "name": "Nike Air Max 90",
+    "category": "Men's Running Shoes",
+    "price": 150,
+    "stock": 22,
+    "image": "https://picsum.photos/500/500?random=2",
+    "link": "https://www.nike.com/t/air-max-90-mens-shoes/CW7475-101",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 3,
-    "name": "Gaming Mouse RGB",
-    "country": "China",
-    "price": 39.99,
-    "stock": 200,
-    "image": "https://example.com/images/mouse.jpg",
-    "description": "Ergonomic gaming mouse with customizable RGB lighting."
+    "id": "3",
+    "name": "Nike React Vision",
+    "category": "Women's Casual Shoes",
+    "price": 135,
+    "stock": 18,
+    "image": "https://picsum.photos/500/500?random=3",
+    "link": "https://www.nike.com/t/react-vision-womens-shoe-CI7523",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 4,
-    "name": "Mechanical Keyboard",
-    "country": "Japan",
-    "price": 89.99,
-    "stock": 75,
-    "image": "https://example.com/images/keyboard.jpg",
-    "description": "Mechanical keyboard with tactile switches and backlighting."
+    "id": "4",
+    "name": "Nike Court Vision",
+    "category": "Men's Basketball Shoes",
+    "price": 110,
+    "stock": 25,
+    "image": "https://picsum.photos/500/500?random=4",
+    "link": "https://www.nike.com/t/court-vision-mens-shoe/CD5438-100",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 5,
-    "name": "4K Webcam",
-    "country": "South Korea",
-    "price": 59.99,
-    "stock": 95,
-    "image": "https://example.com/images/webcam.jpg",
-    "description": "Ultra HD webcam ideal for streaming and video conferencing."
+    "id": "5",
+    "name": "Nike Revolution",
+    "category": "Children's Running Shoes",
+    "price": 75,
+    "stock": 30,
+    "image": "https://picsum.photos/500/500?random=5",
+    "link": "https://www.nike.com/t/revolution-kids-running-shoe-DJ2032",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 6,
-    "name": "Portable SSD 1TB",
-    "country": "Singapore",
-    "price": 129.99,
-    "stock": 60,
-    "image": "https://example.com/images/ssd.jpg",
-    "description": "Fast and compact external SSD with 1TB storage."
+    "id": "6",
+    "name": "Nike Phantom Vision",
+    "category": "Soccer Shoes",
+    "price": 200,
+    "stock": 12,
+    "image": "https://picsum.photos/500/500?random=6",
+    "link": "https://www.nike.com/t/phantom-vision-elite-soccer-shoe-AO3287",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 7,
-    "name": "Bluetooth Speaker",
-    "country": "Canada",
-    "price": 49.99,
-    "stock": 140,
-    "image": "https://example.com/images/speaker.jpg",
-    "description": "Portable speaker with deep bass and long battery life."
+    "id": "7",
+    "name": "Nike Blazer Mid",
+    "category": "Lifestyle Shoes",
+    "price": 120,
+    "stock": 20,
+    "image": "https://picsum.photos/500/500?random=7",
+    "link": "https://www.nike.com/t/blazer-mid-77-casual-shoe-CZ8127-101",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   },
   {
-    "id": 8,
-    "name": "USB-C Hub",
-    "country": "Netherlands",
-    "price": 34.99,
-    "stock": 180,
-    "image": "https://example.com/images/hub.jpg",
-    "description": "Multi-port USB-C hub with HDMI and USB 3.0 support."
-  },
-  {
-    "id": 9,
-    "name": "Action Camera",
-    "country": "France",
-    "price": 199.99,
-    "stock": 40,
-    "image": "https://example.com/images/camera.jpg",
-    "description": "Waterproof action camera capable of recording 4K video."
-  },
-  {
-    "id": 10,
-    "name": "Wireless Charger",
-    "country": "Sweden",
-    "price": 24.99,
-    "stock": 250,
-    "image": "https://example.com/images/charger.jpg",
-    "description": "Fast wireless charging pad compatible with most smartphones."
+    "id": "8",
+    "name": "Nike Pegasus 39",
+    "category": "Women's Running Shoes",
+    "price": 140,
+    "stock": 28,
+    "image": "https://picsum.photos/500/500?random=8",
+    "link": "https://www.nike.com/t/pegasus-39-womens-running-shoe-DH6616",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem fugit quibusdam, reprehenderit et neque exercitationem deleniti dolor nobis laborum consectetur accusantium impedit ea cumque alias, molestias totam, porro quas."
   }
 ]

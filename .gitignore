@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+debug.log*
+
+# React Native
+android/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+build/
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+# Environment
+.env
+.env.*
+
+# Editor directories
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Gradle
+.gradle/
+
+# Coverage
+coverage/

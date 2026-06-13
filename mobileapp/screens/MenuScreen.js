@@ -3,7 +3,7 @@ import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 const MenuScreen = (props) => {
     return (
-        <View style={styles.container}>
+        <View>
             <Text style={styles.text}>Welcom To Menu Screen</Text>
             <Button 
                 title="Go to List Screen"
@@ -24,9 +24,9 @@ const MenuScreen = (props) => {
                 onPress={() => props.navigation.navigate('Countries')}>
                 <Text style={styles.btnText}>Go to Countries Screen</Text>
             </TouchableOpacity>
-                <TouchableOpacity
+            <TouchableOpacity
                 style = {styles.btn}
-                onPress={() => props.navigation.navigate('products')}>
+                onPress={() => props.navigation.navigate('Products')}>
                 <Text style={styles.btnText}>Go to Products Screen</Text>
             </TouchableOpacity>
         </View>
@@ -35,10 +35,6 @@ const MenuScreen = (props) => {
 };
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-    },
     text: {
         textAlign: 'center',
         fontSize: 20,

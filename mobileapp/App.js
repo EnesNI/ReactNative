@@ -11,7 +11,7 @@ import StudentsScreen from './screens/StudentsScreen';
 import ProjectScreen from './screens/ProjectScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import CountriesScreen from './screens/CountriesScreen';
-import ProductScreen from './screens/products';;
+import ProductScreen from './screens/ProductScreen';
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -32,7 +32,7 @@ export default function App() {
         <Stack.Screen name='Profile' component={ProfileScreen} />
         <Stack.Screen name='Project' component={ProjectScreen} />
         <Stack.Screen name='Countries' component={CountriesScreen} />
-        <Stack.Screen name='products' component={ProductScreen} />
+        <Stack.Screen name='Products' component={ProductScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -15,7 +15,7 @@ const ProjectScreen = () => {
                 contentContainerStyle={styles.listContent}
                 columnWrapperStyle={styles.columnWrapper}
                 showsVerticalScrollIndicator={false}
-                renderItem={({item}) => (
+                renterItem = {({item}) => (
                     <View style={styles.projectCard}>
                         <Image source={item.image}  style={styles.projectImage}/>
                     </View>
